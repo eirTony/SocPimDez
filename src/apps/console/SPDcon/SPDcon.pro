@@ -14,8 +14,15 @@ CONFIG   -= app_bundle
 
 TEMPLATE = app
 
+include(../common.pri)
 
-SOURCES += main.cpp
+
+SOURCES += main.cpp \
+    SpdConsole.cpp
 
 OTHER_FILES += \
-    SPDcon.pri
+    SPDcon.pri \
+    ../../../common/common.pri
+
+HEADERS += \
+    SpdConsole.h
