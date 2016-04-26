@@ -22,7 +22,11 @@ SOURCES += main.cpp \
 
 OTHER_FILES += \
     SPDcon.pri \
-    ../../../common/common.pri
+    ../../../common/common.pri \
+    ../common.pri \
+    ../console.pri \
+    ../README.md \
+    ../../README.md
 
 HEADERS += \
     SpdConsole.h

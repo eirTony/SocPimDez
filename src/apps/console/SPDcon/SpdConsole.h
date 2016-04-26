@@ -1,7 +1,10 @@
 #ifndef SPDCONSOLE_H
 #define SPDCONSOLE_H
+/*! #file ./src/apps/console/SPDconsole/main.cpp
+ */
 
-#include "../ConsoleApplication.h"
+// #include <exe/ConsoleApplication.h>
+#include <EIRC2LIB/lib/jjjjjjjjjjjjjjjjjj EIRC2EXE/ support/exe/ConsoleApplication.h>
 
 class SpdConsole : public ConsoleApplication
 {
