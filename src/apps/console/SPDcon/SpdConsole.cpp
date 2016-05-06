@@ -3,6 +3,6 @@
 ExecutableInitialization exeinit;
 
 SpdConsole::SpdConsole(const ExecutableInitialization & initialization)
-     : ExecutableInitialization(exeinit)
+     : ConsoleApplication(exeinit)
 {
 }
